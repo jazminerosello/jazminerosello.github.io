@@ -1,0 +1,44 @@
+body{
+   
+    background-image: url(picture/bg.jpeg);
+    
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 10px solid rgb(216, 208, 208);
+    
+    
+}
+
+.image:hover{
+    transform: translateY(-5px);
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: white;
+    max-width: 500px;
+}
+
+.nickname{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: white;
+    max-width: 300px;
+}
