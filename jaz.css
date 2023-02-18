@@ -53,14 +53,14 @@ body{
     font-family: times; 
     font-size: 30px; 
     text-align: center;
-    color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
     
 }
 
 #lineafter{
     /* for the horizontal line */
     margin-top: 0%;
-    background: #f9f9f9;
+    background: #010101;
     width: 500px;
     height: 5px;
     border-radius: 5px;
