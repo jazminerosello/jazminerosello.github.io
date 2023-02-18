@@ -46,3 +46,45 @@ body{
     background-color: white;
     max-width: 300px;
 }
+
+
+.myfavorites{
+    /* for the favorites word */
+    font-family: times; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+#lineafter{
+    /* for the horizontal line */
+    margin-top: 0%;
+    background: #f9f9f9;
+    width: 500px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.indivrev table tr td {
+     /* for the table row and table data since we input the 4 favorites into table with a corresponding padding to look like they are separated */
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    transition: 0.5s;
+    border-style: outset;
+}
+
+.indivrev table tr td:hover{
+    transform: translateY(-5px); 
+}
+
+.indivrev table tr td p{
+     /* for the text or paragraphs inside the table */
+    text-align: center;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
